@@ -75,3 +75,25 @@ const obj = [
         "Awards":"Nominated for 3 Oscars. Another 40 wins & 66 nominations."
     }
 ]
+
+/*for (let filme = 0; filme < obj.length; filme ++) {
+    let catalogo = obj[filme]
+    console.log (catalogo.Title)
+    console.log(catalogo.Year)
+   
+    let genero = catalogo.Genre.split(",")
+    for (let movie = 0; movie < genero.length; movie ++) {
+        console.log(genero[movie])
+    }
+}*/
+
+for (let filme = 0; filme < obj.length; filme ++) {
+    let catalogo = obj[filme]
+    console.log (catalogo.Title)
+    console.log(catalogo.Year)
+   
+    let genero = catalogo.Genre.split(",")
+    for (let movie = 0; movie < genero.length; movie ++) {
+        console.log(genero[movie])
+    }
+}

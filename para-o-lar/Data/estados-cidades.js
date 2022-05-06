@@ -5732,3 +5732,18 @@ const estados = [
         ]
       }
     ]
+
+    function lista (cidade){
+      const encontrarEstado = estados.filter(({sigla}) => sigla == cidade)
+      for (let i of encontrarEstado) {
+        
+        let municipio =  i.cidades
+          
+        for (let j of municipio) {
+          console.log (j)
+        }
+      }
+              
+    }
+    
+    lista("PB")
